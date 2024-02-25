@@ -1,0 +1,6 @@
+@BasicAuth.WebApi_HostAddress = http://localhost:5072
+
+GET {{BasicAuth.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
