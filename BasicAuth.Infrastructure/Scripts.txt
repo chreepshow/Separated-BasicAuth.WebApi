@@ -1,0 +1,2 @@
+﻿dotnet ef migrations add Initial --project .\BasicAuth.Infrastructure --startup-project .\BasicAuth.WebApi
+dotnet ef database update --project .\BasicAuth.Infrastructure --startup-project .\BasicAuth.WebApi
